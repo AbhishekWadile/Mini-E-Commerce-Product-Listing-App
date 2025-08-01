@@ -91,8 +91,6 @@ npm run preview     # preview production build
 - [x] Product Popup Modal
 - [x] Filtering by category, rating, price
 - [x] Responsive design for all screen sizes
-- [ ] User Login System *(coming soon)*
-- [ ] Checkout & Payment Integration *(coming soon)*
 
 ---
 
