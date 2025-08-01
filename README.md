@@ -1,12 +1,108 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 Mini E-Commerce Product Listing App
 
-Currently, two official plugins are available:
+A responsive, dynamic, and feature-rich **E-Commerce Product Listing App** built using **React**, **Material UI**, and **Fake Store API**. This project is designed to demonstrate product listing, cart functionality, filtering, and UI responsiveness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌓 Light / Dark mode toggle
+- 🔍 Search by category
+- 🧰 Filters by category, price, and rating
+- 🛒 Add to cart with quantity tracking
+- 🧾 View and remove items in a side drawer cart
+- 💬 Read more popup for detailed product info
+- 📱 Fully responsive for mobile, tablet, and desktop
+
+---
+
+## 🧪 Tech Stack
+
+- **Frontend**: React, Vite
+- **Styling**: Material UI (MUI)
+- **Routing**: React Router
+- **State Management**: React Context API
+- **API**: [Fake Store API](https://fakestoreapi.com)
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+│   ├── CartDrawer.jsx
+│   ├── Navbar.jsx
+│   ├── ProductCard.jsx
+│   ├── ProductDetails.jsx
+│   └── ProductList.jsx
+├── context/
+│   └── CartContext.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🔧 Getting Started
+
+### ✅ Prerequisites
+
+- Node.js ≥ 16
+- npm or yarn
+
+### 📦 Install dependencies
+
+```bash
+npm install
+```
+
+### ▶️ Run the app locally
+
+```bash
+npm run dev
+```
+
+Then open `http://localhost:5173` in your browser.
+
+---
+
+## 📌 Available Scripts
+
+```bash
+npm run dev         # start development server
+npm run build       # build for production
+npm run preview     # preview production build
+```
+
+---
+
+## 🌐 Live Website
+
+ [Netlify](https://dancing-torrone-56ddc1.netlify.app/) or [Vercel](https://mini-e-commerce-product-listing-app-smoky.vercel.app/).
+
+---
+
+## ✅ Roadmap / Todos
+
+- [x] Light / Dark Mode
+- [x] Add to Cart with Quantity
+- [x] Product Popup Modal
+- [x] Filtering by category, rating, price
+- [x] Responsive design for all screen sizes
+- [ ] User Login System *(coming soon)*
+- [ ] Checkout & Payment Integration *(coming soon)*
+
+---
+
+## 🙋‍♂️ Author
+
+**Abhishek Raju Wadile**  
+🚀 Aspiring React + Spring Boot Developer  
+🔗 [LinkedIn](https://www.linkedin.com/in/abhishek-wadile-a802312a9/)  
+📫 wadile.abhishektsc4@gmail.com
+
+---
+
+> ⭐ If you found this project useful, consider starring the repo. It helps a lot!
